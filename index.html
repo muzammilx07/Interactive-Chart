@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .main-container {
+            width: 70%;
+            height: 70%;
+            text-align: center;
+        }
+        .chart-container {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h2>Interactive Bar Chart</h2>
+        <div class="chart-container">
+            <canvas id="pie-chart"></canvas>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
